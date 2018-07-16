@@ -1,0 +1,28 @@
+스프링 :  잘 만들자    
+스프링 프레임워크  :  디자인패턴, 트렌잭션 ,암호화, 라이프사이클   S/W 시점인것들  
+EJB   <-  최초     필요악  , 진입장벽 겁나 높음   그들의 규칙에 맟춰야함  
+
+
+스프링 라이브러리 or 플러그인  설치  
+MAVEN  <-    프로젝트 관리 프레임 워크 
+
+maven  - 라이브러리  자동화               버그의 행연 
+Project Object Manager Xml     -repostory    
+
+
+IOC 
+
+Container (Tomcat 관련) [servlet] smart 
+
+
+DI 가  중요함 
+
+Spring MVC
+
+AOP  (관점지향)  [패러다임] 횡단관심사      
+
+
+service layout  필수 !    
+
+
+스프링은  3단계 이상  패키지 이름을 지어야 함 

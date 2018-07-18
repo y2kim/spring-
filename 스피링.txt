@@ -45,3 +45,43 @@ interface-> dl -> di
 
 
 어노테이션 비중이 조금 높다      
+
+
+
+DTO  = VO [전송] 
+
+카멜케이스  때문에  개지랄남 
+
+
+@Component   <-  xml , bean, 자동생성 
+@Scope  <- (싱글톤,  프로토타입 )  기본 싱글톤 
+context:component-scan
+base-package : 스캔 지정 
+ProductVO instance = (ProductVO)ctx.getBean("productVO");
+첫 글자에서 소문자로 바꾸면 된다  
+@value 어노테이션(초기값 줄수있음) 
+@AutoWired (자료형 기준 )
+스캔 - 빈 
+
+
+동적바인딩 
+Spring Container - 이것도 인스턴스 (첫 생성 인스턴스  시작)
+context  - 스프링이 일하는  환경  처음 시작점 
+인스턴스는 실질적으로 생성  
+
+ 
+CRUD 
+
+DTO, DAO , DPCP [],xml 
+
+
+-서비스 레이아웃
+트랜젝션 처리를 위하여 
+
+
+
+어노테이션 - 컴포넌트,빈
+@Component   @Repository  : 서비스 , DAO  같은 특수성 애들은   다른용어로 부른다
+@Service  @Controller
+
+Spring JDBC 

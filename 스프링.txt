@@ -85,3 +85,22 @@ DTO, DAO , DPCP [],xml
 @Service  @Controller
 
 Spring JDBC 
+
+
+web.xml  - 배포  서술자 
+
+mvc 2  --
+client - servlet(FrontController) - DAO - Servlet - request - (비즈니스 logic)/ jsp - el/jstl (front) 
+
+Sprint MVC 
+
+Client - Servlet[Dispatch servlet(front controller)](URL 패턴 분석  ,  1:1 매칭 ) <- [Handler Mapper]
+-((url: view) & [값 명칭  : model]  retern 디스패쳐 ) DAO-request - (redirect /default : forword ) - where 
+
+DispatcherServlet (자동으로 만들어짐 )
+1 HandlerMapper : 담당 컨트롤러 지정 (담당 컨트롤러 사용자 정의 )
+2 Model&View  객체가  Dispatcher 에 return 되면  
+3 ViewResolver에 의한 보안 처리 후 view로 전달 (보안담당)
+
+인스턴스 생성 방법  @ 컴포턴트 붙이고 - 스캔 (어노테이션) /   빈 생성하거나 (xml)
+

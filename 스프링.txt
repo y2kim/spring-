@@ -104,3 +104,17 @@ DispatcherServlet (자동으로 만들어짐 )
 
 인스턴스 생성 방법  @ 컴포턴트 붙이고 - 스캔 (어노테이션) /   빈 생성하거나 (xml)
 
+
+스프링 EJB 방식을 원하지 않았음 f POJO
+일일이 만들기 controller 만들기 귀찮으니   @controller(어노테이션) 만듬 f pojo
+먼저 Controller 부터 먼저 찾는다   handler mapper 지움 
+메소드 자유로 짓고  @ RequestMapping("/*.*")  붙임 
+url-pattern 에서  /(슬래시 하나는 디폴트 맵핑[*.jsp](jsp은 jsp로 가게 하라)*붙이면 피곤해짐) 에서 구분
+
+<session>  - HttpSession
+
+view resolver
+transation     -(mybatis)
+aop
+
+

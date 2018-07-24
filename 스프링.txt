@@ -132,7 +132,7 @@ advice : 추려내진 target 메서드 들에 할당할 메서드  (횡단 메소드 )
 
 pointcut , advice  묶으면 
 adviser 
-adviser 가 묶으면  aspect     
+adviser 가 묶으면(결합)  aspect     
 
 한꺼번에 여러개가 아니여도  중간에  하나라도 낄때라고  사용할때라고 있으면 사용한다 
 

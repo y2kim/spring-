@@ -1,74 +1,74 @@
-½ºÇÁ¸µ :  Àß ¸¸µéÀÚ    
-½ºÇÁ¸µ ÇÁ·¹ÀÓ¿öÅ©  :  µðÀÚÀÎÆÐÅÏ, Æ®·»Àè¼Ç ,¾ÏÈ£È­, ¶óÀÌÇÁ»çÀÌÅ¬   S/W ½ÃÁ¡ÀÎ°Íµé  , ÀÇÁ¸¼º ÀÌ·± ¹®Á¦ÀûÇØ°á
-EJB   <-  ÃÖÃÊ     ÇÊ¿ä¾Ç  , ÁøÀÔÀåº® °Ì³ª ³ôÀ½   ±×µéÀÇ ±ÔÄ¢¿¡ ¬Ãç¾ßÇÔ  
+ìŠ¤í”„ë§ :  ìž˜ ë§Œë“¤ìž    
+ìŠ¤í”„ë§ í”„ë ˆìž„ì›Œí¬  :  ë””ìžì¸íŒ¨í„´, íŠ¸ë Œìž­ì…˜ ,ì•”í˜¸í™”, ë¼ì´í”„ì‚¬ì´í´   S/W ì‹œì ì¸ê²ƒë“¤  , ì˜ì¡´ì„± ì´ëŸ° ë¬¸ì œì í•´ê²°
+EJB   <-  ìµœì´ˆ     í•„ìš”ì•…  , ì§„ìž…ìž¥ë²½ ê²ë‚˜ ë†’ìŒ   ê·¸ë“¤ì˜ ê·œì¹™ì— Âï¿½ç°å³   
 
-µî½Å°°ÀÌ ¾øµ¥ÀÌÆ² µÉ¶§ C µå¶óÀÌµå -> ÀÌÅ¬¸³½º Á¾·á -> »ç¿ëÀÚ -> .m2 »èÁ¦ -> ÀÌÅ¬¸³½º Àç ½ÇÇà  
+ë“±ì‹ ê°™ì´ ì—†ë°ì´í‹€ ë ë•Œ C ë“œë¼ì´ë“œ -> ì´í´ë¦½ìŠ¤ ì¢…ë£Œ -> ì‚¬ìš©ìž -> .m2 ì‚­ì œ -> ì´í´ë¦½ìŠ¤ ìž¬ ì‹¤í–‰  
 
-½ºÇÁ¸µ ¶óÀÌºê·¯¸® or ÇÃ·¯±×ÀÎ  ¼³Ä¡  
-MAVEN  <-    ÇÁ·ÎÁ§Æ® °ü¸® ÇÁ·¹ÀÓ ¿öÅ© 
+ìŠ¤í”„ë§ ë¼ì´ë¸ŒëŸ¬ë¦¬ or í”ŒëŸ¬ê·¸ì¸  ì„¤ì¹˜  
+MAVEN  <-    í”„ë¡œì íŠ¸ ê´€ë¦¬ í”„ë ˆìž„ ì›Œí¬ 
 
-maven  - ¶óÀÌºê·¯¸®  ÀÚµ¿È­               ¹ö±×ÀÇ Çà¿¬ 
+maven  - ë¼ì´ë¸ŒëŸ¬ë¦¬  ìžë™í™”               ë²„ê·¸ì˜ í–‰ì—° 
 Project Object Manager Xml     -repostory    
 
 
 IOC 
 
-Container (Tomcat °ü·Ã) [servlet] smart 
+Container (Tomcat ê´€ë ¨) [servlet] smart 
 
 
-DI °¡  Áß¿äÇÔ 
+DI ê°€  ì¤‘ìš”í•¨ 
 
 Spring MVC
 
-AOP  (°üÁ¡ÁöÇâ)  [ÆÐ·¯´ÙÀÓ] È¾´Ü°ü½É»ç      
+AOP  (ê´€ì ì§€í–¥)  [íŒ¨ëŸ¬ë‹¤ìž„] íš¡ë‹¨ê´€ì‹¬ì‚¬      
 
 
-service layout  ÇÊ¼ö !    
+service layout  í•„ìˆ˜ !    
 
 
-½ºÇÁ¸µÀº  3´Ü°è ÀÌ»ó  ÆÐÅ°Áö ÀÌ¸§À» Áö¾î¾ß ÇÔ 
+ìŠ¤í”„ë§ì€  3ë‹¨ê³„ ì´ìƒ  íŒ¨í‚¤ì§€ ì´ë¦„ì„ ì§€ì–´ì•¼ í•¨ 
 
-¿äÁö :  ÄÚµå¸¦ Àß Â¥´Ù 
+ìš”ì§€ :  ì½”ë“œë¥¼ ìž˜ ì§œë‹¤ 
 
 
-xml ¹®¼­·Î À¯Áö 
-DBCP     xml  Ä¿³Ø¼Ç Ç®     
-ÀÎ¼ö ºÎºÐÀÌ µÈ´Ù  
+xml ë¬¸ì„œë¡œ ìœ ì§€ 
+DBCP     xml  ì»¤ë„¥ì…˜ í’€     
+ì¸ìˆ˜ ë¶€ë¶„ì´ ëœë‹¤  
 interface-> dl -> di
 
 
-ÀÇÁ¸¼± ÁÖÀÔ  
+ì˜ì¡´ì„  ì£¼ìž…  
 
 
-½Ì±ÛÅæ 
+ì‹±ê¸€í†¤ 
 
-ÇÁ·ÎÅäÅ¸ÀÔ
-
-
-¾î³ëÅ×ÀÌ¼Ç ºñÁßÀÌ Á¶±Ý ³ô´Ù      
+í”„ë¡œí† íƒ€ìž…
 
 
-
-DTO  = VO [Àü¼Û] 
-
-Ä«¸áÄÉÀÌ½º  ¶§¹®¿¡  °³Áö¶ö³² 
+ì–´ë…¸í…Œì´ì…˜ ë¹„ì¤‘ì´ ì¡°ê¸ˆ ë†’ë‹¤      
 
 
-@Component   <-  xml , bean, ÀÚµ¿»ý¼º 
-@Scope  <- (½Ì±ÛÅæ,  ÇÁ·ÎÅäÅ¸ÀÔ )  ±âº» ½Ì±ÛÅæ 
+
+DTO  = VO [ì „ì†¡] 
+
+ì¹´ë©œì¼€ì´ìŠ¤  ë•Œë¬¸ì—  ê°œì§€ëž„ë‚¨ 
+
+
+@Component   <-  xml , bean, ìžë™ìƒì„± 
+@Scope  <- (ì‹±ê¸€í†¤,  í”„ë¡œí† íƒ€ìž… )  ê¸°ë³¸ ì‹±ê¸€í†¤ 
 context:component-scan
-base-package : ½ºÄµ ÁöÁ¤ 
+base-package : ìŠ¤ìº” ì§€ì • 
 ProductVO instance = (ProductVO)ctx.getBean("productVO");
-Ã¹ ±ÛÀÚ¿¡¼­ ¼Ò¹®ÀÚ·Î ¹Ù²Ù¸é µÈ´Ù  
-@value ¾î³ëÅ×ÀÌ¼Ç(ÃÊ±â°ª ÁÙ¼öÀÖÀ½) 
-@AutoWired (ÀÚ·áÇü ±âÁØ )
-½ºÄµ - ºó 
+ì²« ê¸€ìžì—ì„œ ì†Œë¬¸ìžë¡œ ë°”ê¾¸ë©´ ëœë‹¤  
+@value ì–´ë…¸í…Œì´ì…˜(ì´ˆê¸°ê°’ ì¤„ìˆ˜ìžˆìŒ) 
+@AutoWired (ìžë£Œí˜• ê¸°ì¤€ )
+ìŠ¤ìº” - ë¹ˆ 
 
 
-µ¿Àû¹ÙÀÎµù 
-Spring Container - ÀÌ°Íµµ ÀÎ½ºÅÏ½º (Ã¹ »ý¼º ÀÎ½ºÅÏ½º  ½ÃÀÛ)
-context  - ½ºÇÁ¸µÀÌ ÀÏÇÏ´Â  È¯°æ  Ã³À½ ½ÃÀÛÁ¡ 
-ÀÎ½ºÅÏ½º´Â ½ÇÁúÀûÀ¸·Î »ý¼º  
+ë™ì ë°”ì¸ë”© 
+Spring Container - ì´ê²ƒë„ ì¸ìŠ¤í„´ìŠ¤ (ì²« ìƒì„± ì¸ìŠ¤í„´ìŠ¤  ì‹œìž‘)
+context  - ìŠ¤í”„ë§ì´ ì¼í•˜ëŠ”  í™˜ê²½  ì²˜ìŒ ì‹œìž‘ì  
+ì¸ìŠ¤í„´ìŠ¤ëŠ” ì‹¤ì§ˆì ìœ¼ë¡œ ìƒì„±  
 
  
 CRUD 
@@ -76,111 +76,115 @@ CRUD
 DTO, DAO , DPCP [],xml 
 
 
--¼­ºñ½º ·¹ÀÌ¾Æ¿ô
-Æ®·£Á§¼Ç Ã³¸®¸¦ À§ÇÏ¿© 
+-ì„œë¹„ìŠ¤ ë ˆì´ì•„ì›ƒ
+íŠ¸ëžœì ì…˜ ì²˜ë¦¬ë¥¼ ìœ„í•˜ì—¬ 
 
 
 
-¾î³ëÅ×ÀÌ¼Ç - ÄÄÆ÷³ÍÆ®,ºó
-@Component   @Repository  : ¼­ºñ½º , DAO  °°Àº Æ¯¼ö¼º ¾ÖµéÀº   ´Ù¸¥¿ë¾î·Î ºÎ¸¥´Ù
+ì–´ë…¸í…Œì´ì…˜ - ì»´í¬ë„ŒíŠ¸,ë¹ˆ
+@Component   @Repository  : ì„œë¹„ìŠ¤ , DAO  ê°™ì€ íŠ¹ìˆ˜ì„± ì• ë“¤ì€   ë‹¤ë¥¸ìš©ì–´ë¡œ ë¶€ë¥¸ë‹¤
 @Service  @Controller
 
 Spring JDBC 
 
 
-web.xml  - ¹èÆ÷  ¼­¼úÀÚ 
+web.xml  - ë°°í¬  ì„œìˆ ìž 
 
 mvc 2  --
-client - servlet(FrontController) - DAO - Servlet - request - (ºñÁî´Ï½º logic)/ jsp - el/jstl (front) 
+client - servlet(FrontController) - DAO - Servlet - request - (ë¹„ì¦ˆë‹ˆìŠ¤ logic)/ jsp - el/jstl (front) 
 
 Sprint MVC 
 
-Client - Servlet[Dispatch servlet(front controller)](URL ÆÐÅÏ ºÐ¼®  ,  1:1 ¸ÅÄª ) <- [Handler Mapper]
--((url: view) & [°ª ¸íÄª  : model]  retern µð½ºÆÐÃÄ ) DAO-request - (redirect /default : forword ) - where 
+Client - Servlet[Dispatch servlet(front controller)](URL íŒ¨í„´ ë¶„ì„  ,  1:1 ë§¤ì¹­ ) <- [Handler Mapper]
+-((url: view) & [ê°’ ëª…ì¹­  : model]  retern ë””ìŠ¤íŒ¨ì³ ) DAO-request - (redirect /default : forword ) - where 
 
-DispatcherServlet (ÀÚµ¿À¸·Î ¸¸µé¾îÁü )
-1 HandlerMapper : ´ã´ç ÄÁÆ®·Ñ·¯ ÁöÁ¤ (´ã´ç ÄÁÆ®·Ñ·¯ »ç¿ëÀÚ Á¤ÀÇ )
-2 Model&View  °´Ã¼°¡  Dispatcher ¿¡ return µÇ¸é  
-3 ViewResolver¿¡ ÀÇÇÑ º¸¾È Ã³¸® ÈÄ view·Î Àü´Þ (º¸¾È´ã´ç)
+DispatcherServlet (ìžë™ìœ¼ë¡œ ë§Œë“¤ì–´ì§ )
+1 HandlerMapper : ë‹´ë‹¹ ì»¨íŠ¸ë¡¤ëŸ¬ ì§€ì • (ë‹´ë‹¹ ì»¨íŠ¸ë¡¤ëŸ¬ ì‚¬ìš©ìž ì •ì˜ )
+2 Model&View  ê°ì²´ê°€  Dispatcher ì— return ë˜ë©´  
+3 ViewResolverì— ì˜í•œ ë³´ì•ˆ ì²˜ë¦¬ í›„ viewë¡œ ì „ë‹¬ (ë³´ì•ˆë‹´ë‹¹)
 
-ÀÎ½ºÅÏ½º »ý¼º ¹æ¹ý  @ ÄÄÆ÷ÅÏÆ® ºÙÀÌ°í - ½ºÄµ (¾î³ëÅ×ÀÌ¼Ç) /   ºó »ý¼ºÇÏ°Å³ª (xml)
+ì¸ìŠ¤í„´ìŠ¤ ìƒì„± ë°©ë²•  @ ì»´í¬í„´íŠ¸ ë¶™ì´ê³  - ìŠ¤ìº” (ì–´ë…¸í…Œì´ì…˜) /   ë¹ˆ ìƒì„±í•˜ê±°ë‚˜ (xml)
 
 
-½ºÇÁ¸µ EJB ¹æ½ÄÀ» ¿øÇÏÁö ¾Ê¾ÒÀ½ f POJO
-ÀÏÀÏÀÌ ¸¸µé±â controller ¸¸µé±â ±ÍÂúÀ¸´Ï   @controller(¾î³ëÅ×ÀÌ¼Ç) ¸¸µë f pojo
-¸ÕÀú Controller ºÎÅÍ ¸ÕÀú Ã£´Â´Ù   handler mapper Áö¿ò 
-¸Þ¼Òµå ÀÚÀ¯·Î Áþ°í  @ RequestMapping("/*.*")  ºÙÀÓ 
-url-pattern ¿¡¼­  /(½½·¡½Ã ÇÏ³ª´Â µðÆúÆ® ¸ÊÇÎ[*.jsp](jspÀº jsp·Î °¡°Ô ÇÏ¶ó)*ºÙÀÌ¸é ÇÇ°ïÇØÁü) ¿¡¼­ ±¸ºÐ
+ìŠ¤í”„ë§ EJB ë°©ì‹ì„ ì›í•˜ì§€ ì•Šì•˜ìŒ f POJO
+ì¼ì¼ì´ ë§Œë“¤ê¸° controller ë§Œë“¤ê¸° ê·€ì°®ìœ¼ë‹ˆ   @controller(ì–´ë…¸í…Œì´ì…˜) ë§Œë“¬ f pojo
+ë¨¼ì € Controller ë¶€í„° ë¨¼ì € ì°¾ëŠ”ë‹¤   handler mapper ì§€ì›€ 
+ë©”ì†Œë“œ ìžìœ ë¡œ ì§“ê³   @ RequestMapping("/*.*")  ë¶™ìž„ 
+url-pattern ì—ì„œ  /(ìŠ¬ëž˜ì‹œ í•˜ë‚˜ëŠ” ë””í´íŠ¸ ë§µí•‘[*.jsp](jspì€ jspë¡œ ê°€ê²Œ í•˜ë¼)*ë¶™ì´ë©´ í”¼ê³¤í•´ì§) ì—ì„œ êµ¬ë¶„
 
 <session>  - HttpSession
 
 view resolver
 transation     -(mybatis)
-aop(È¾´Ü)   XÀýÂ÷ ,°´Ã¼
+aop(íš¡ë‹¨)   Xì ˆì°¨ ,ê°ì²´
 
-AOP  : (Aspect Oriented Programming ) °üÁ¡ ÁöÇâ °³¹ß /  È¾´Ü  °ü½É»ç 
+AOP  : (Aspect Oriented Programming ) ê´€ì  ì§€í–¥ ê°œë°œ /  íš¡ë‹¨  ê´€ì‹¬ì‚¬ 
 ex)
-·Î±× , º¸¾È , ¾ÏÈ£  -- ¾ðÁ¦ ¾îµð¼­ [°øÅë °ü½É»ç  ] ¹ü¿ë¼º      - ÀÇÁ¸¼º ÁÖÀÔ  (ºÎ¸ð°¡ °°¾Æ¾ß ÇÔ)[ÇÏ³ªÀÇ ÀÎÅÍÆäÀÌ]
-·Î±× ½Ã½ºÅÛ  //  ÀÇÁ¸¼ºÁÖÀÔ Á¶Â÷ ÇØ°á ¾ÈµÇ´Â °ÍÀ»  È¾´Ü °ü½É»ç·Î ÇØ°áÇÑ´Ù (AOP) °´Ã¼´ÜÀ§°¡ ¾Æ´Ô 
-Á¤±Ô Ç¥Çö½Ä [ÆÐÅÏÀ» Ã£¾Æ³¿ ] °°Àº°Å  
-join point  ,  point cut ÈÄº¸ÀÚ      point cut  : ´ë»ó ¤½Æ÷ÀÎÆ® Âï±â À§ÇÑ°Í 
+ë¡œê·¸ , ë³´ì•ˆ , ì•”í˜¸  -- ì–¸ì œ ì–´ë””ì„œ [ê³µí†µ ê´€ì‹¬ì‚¬  ] ë²”ìš©ì„±      - ì˜ì¡´ì„± ì£¼ìž…  (ë¶€ëª¨ê°€ ê°™ì•„ì•¼ í•¨)[í•˜ë‚˜ì˜ ì¸í„°íŽ˜ì´]
+ë¡œê·¸ ì‹œìŠ¤í…œ  //  ì˜ì¡´ì„±ì£¼ìž… ì¡°ì°¨ í•´ê²° ì•ˆë˜ëŠ” ê²ƒì„  íš¡ë‹¨ ê´€ì‹¬ì‚¬ë¡œ í•´ê²°í•œë‹¤ (AOP) ê°ì²´ë‹¨ìœ„ê°€ ì•„ë‹˜ 
+ì •ê·œ í‘œí˜„ì‹ [íŒ¨í„´ì„ ì°¾ì•„ëƒ„ ] ê°™ì€ê±°  
+join point  ,  point cut í›„ë³´ìž      point cut  : ëŒ€ìƒ ã…í¬ì¸íŠ¸ ì°ê¸° ìœ„í•œê²ƒ 
 
-joinpoint : Æ÷ÀÎÆ®ÄÆ ÈÄº¸ÀÚ ¶ó°íµµ ºÎ¸¦¼ö ÀÖ´Âµ¥   AOP ÅëÃ¤ ADVICE ÇÒ´çÇÒ ¸Þ¼­µå ÈÄº¸ ÀüÃ¼¸¦ ÅëÄªÇÑ´Ù
-PointCut : JoinPoint Áß¿¡¼­ Advice¸¦ ÇÒ´çÇÒ ¸Þ¼­µå¸¦ Ãß·Á³»±â À§ÇÑ Ç¥Çö½Ä 
-tarket : Æ÷ÀÌÆ® ÄÆ Ç¥Çö½Ä¿¡ ÀÇÇØ Á¶ÀÎÆ÷ÀÎÆ® Áß¿¡¼­ ¼±Á¤µÈ ¸Þ¼­µå µéÀ» ÅëÄª   (¹Þ¾ÆµéÀÌ´Â ¸Þ¼Òµå )
-advice : Ãß·Á³»Áø target ¸Þ¼­µå µé¿¡ ÇÒ´çÇÒ ¸Þ¼­µå  (È¾´Ü ¸Þ¼Òµå )
+joinpoint : í¬ì¸íŠ¸ì»· í›„ë³´ìž ë¼ê³ ë„ ë¶€ë¥¼ìˆ˜ ìžˆëŠ”ë°   AOP í†µì±„ ADVICE í• ë‹¹í•  ë©”ì„œë“œ í›„ë³´ ì „ì²´ë¥¼ í†µì¹­í•œë‹¤
+PointCut : JoinPoint ì¤‘ì—ì„œ Adviceë¥¼ í• ë‹¹í•  ë©”ì„œë“œë¥¼ ì¶”ë ¤ë‚´ê¸° ìœ„í•œ í‘œí˜„ì‹ 
+tarket : í¬ì´íŠ¸ ì»· í‘œí˜„ì‹ì— ì˜í•´ ì¡°ì¸í¬ì¸íŠ¸ ì¤‘ì—ì„œ ì„ ì •ëœ ë©”ì„œë“œ ë“¤ì„ í†µì¹­   (ë°›ì•„ë“¤ì´ëŠ” ë©”ì†Œë“œ )
+advice : ì¶”ë ¤ë‚´ì§„ target ë©”ì„œë“œ ë“¤ì— í• ë‹¹í•  ë©”ì„œë“œ  (íš¡ë‹¨ ë©”ì†Œë“œ )
 
-pointcut , advice  ¹­À¸¸é 
+pointcut , advice  ë¬¶ìœ¼ë©´ 
 adviser 
+<<<<<<< HEAD
 adviser °¡ ¹­À¸¸é(°áÇÕ)  aspect     
+=======
+adviser ê°€ ë¬¶ìœ¼ë©´(ê²°í•©)  aspect     
+>>>>>>> 92e76a7799934a6d07032dfd1edf44caf61da220
 
-ÇÑ²¨¹ø¿¡ ¿©·¯°³°¡ ¾Æ´Ï¿©µµ  Áß°£¿¡  ÇÏ³ª¶óµµ ³¥¶§¶ó°í  »ç¿ëÇÒ¶§¶ó°í ÀÖÀ¸¸é »ç¿ëÇÑ´Ù 
+í•œêº¼ë²ˆì— ì—¬ëŸ¬ê°œê°€ ì•„ë‹ˆì—¬ë„  ì¤‘ê°„ì—  í•˜ë‚˜ë¼ë„ ë‚„ë•Œë¼ê³   ì‚¬ìš©í• ë•Œë¼ê³  ìžˆìœ¼ë©´ ì‚¬ìš©í•œë‹¤ 
 
-´ëºÎºÐ ´Ü¹æÇâ¾ÏÈ£ sha 512 °°Àº°Å  »ç¿ë 
+ëŒ€ë¶€ë¶„ ë‹¨ë°©í–¥ì•”í˜¸ sha 512 ê°™ì€ê±°  ì‚¬ìš© 
 
 around  
-String º¯¼ö  
-·Î±×ÀÎÇÒ¶§ ¿¡ ´ëÇÑ ,  È¸¿ø°¡ÀÔ¿¡ ´ëÇÑ  ¾ÏÈ£È­ 
-joinpoint : ÇÊ¿äÇÑ Á¤º¸¸¦ ´ã°í ÀÖ´Ù 
+String ë³€ìˆ˜  
+ë¡œê·¸ì¸í• ë•Œ ì— ëŒ€í•œ ,  íšŒì›ê°€ìž…ì— ëŒ€í•œ  ì•”í˜¸í™” 
+joinpoint : í•„ìš”í•œ ì •ë³´ë¥¼ ë‹´ê³  ìžˆë‹¤ 
 ----------------------------------------------------------------------
-¾ÏÈ£È­ °ü·Ã ÇÏ¿©  
-		// ¸®ÅÏÇÏ´Â°Ç ÀÇ¹Ì°¡ ¾ø´Ù´Â ¹®Á¦°¡ ÀÖÀ½     ÁÖ¼Ò¸¦  Áö¿ö¹ö¸®±â ¶§¹®¿¡   Call by ref °ü·Ã ÀÌ¾ß±â 
-		//  È¾´Ü °ü½É»ç¶ó´Â °ÍÀ» ±â¾ïÀ» ÇØ¾ßÇÔ  ARound 
+ì•”í˜¸í™” ê´€ë ¨ í•˜ì—¬  
+		// ë¦¬í„´í•˜ëŠ”ê±´ ì˜ë¯¸ê°€ ì—†ë‹¤ëŠ” ë¬¸ì œê°€ ìžˆìŒ     ì£¼ì†Œë¥¼  ì§€ì›Œë²„ë¦¬ê¸° ë•Œë¬¸ì—   Call by ref ê´€ë ¨ ì´ì•¼ê¸° 
+		//  íš¡ë‹¨ ê´€ì‹¬ì‚¬ë¼ëŠ” ê²ƒì„ ê¸°ì–µì„ í•´ì•¼í•¨  ARound 
 
-dto or requestParam(»ý·«°¡´É )
+dto or requestParam(ìƒëžµê°€ëŠ¥ )
 
 
 
 	
 //	@Before("getInsertPointCut()")
 //	public void printHelloView(JoinPoint jp) {
-//		//¼º°øÀûÀÎ ¾ÏÈ£È­ 
+//		//ì„±ê³µì ì¸ ì•”í˜¸í™” 
 //		MessagesDTO dto = (MessagesDTO)jp.getArgs()[0];
 //		dto.setContents(EncrpyUtils.getSha256(dto.getContents()));
-//		// ÁÖ¼Ò°ªÀÌ °°¾Æ¼­  °ªÀÌ º¯ÇÔ   call by value  ,ref ¹®Á¦ 
-//		// ÄÁÆ®·Ñ·¯¿¡¼­ DTO ÀÏ°æ¿ì¿¡¸¸ µÊ 
-//		// ¸®ÅÏÇÏ´Â°Ç ÀÇ¹Ì°¡ ¾ø´Ù´Â ¹®Á¦°¡ ÀÖÀ½     ÁÖ¼Ò¸¦  Áö¿ö¹ö¸®±â ¶§¹®¿¡   Call by ref °ü·Ã ÀÌ¾ß±â 
-//		//  È¾´Ü °ü½É»ç¶ó´Â °ÍÀ» ±â¾ïÀ» ÇØ¾ßÇÔ  ARound 
+//		// ì£¼ì†Œê°’ì´ ê°™ì•„ì„œ  ê°’ì´ ë³€í•¨   call by value  ,ref ë¬¸ì œ 
+//		// ì»¨íŠ¸ë¡¤ëŸ¬ì—ì„œ DTO ì¼ê²½ìš°ì—ë§Œ ë¨ 
+//		// ë¦¬í„´í•˜ëŠ”ê±´ ì˜ë¯¸ê°€ ì—†ë‹¤ëŠ” ë¬¸ì œê°€ ìžˆìŒ     ì£¼ì†Œë¥¼  ì§€ì›Œë²„ë¦¬ê¸° ë•Œë¬¸ì—   Call by ref ê´€ë ¨ ì´ì•¼ê¸° 
+//		//  íš¡ë‹¨ ê´€ì‹¬ì‚¬ë¼ëŠ” ê²ƒì„ ê¸°ì–µì„ í•´ì•¼í•¨  ARound 
 //	}
 	
 //	@Before("getInsertPointCut()")
 //	public void printHelloView(JoinPoint jp) {
-//		//JoinPoin¤µ
+//		//JoinPoinã……
 //		String contents = jp.getArgs()[1].toString();
-//		//¿À¹öÇìµå¸¸ ÀÏ¾î³² 
-	//  ÀÌÁö¿ª¿¡¼­ »ç¶óÁ® ¹ö¸°´Ù
+//		//ì˜¤ë²„í—¤ë“œë§Œ ì¼ì–´ë‚¨ 
+	//  ì´ì§€ì—­ì—ì„œ ì‚¬ë¼ì ¸ ë²„ë¦°ë‹¤
 //		contents = EncrpyUtils.getSha256(contents);
 //	}
 
 	@Around("getInsertPointCut()")
 	public void printHelloView(JoinPoint jp) {
-		//¼º°øÀûÀÎ ¾ÏÈ£È­ 
+		//ì„±ê³µì ì¸ ì•”í˜¸í™” 
 		MessagesDTO dto = (MessagesDTO)jp.getArgs()[0];
 		dto.setContents(EncrpyUtils.getSha256(dto.getContents()));
-		// ÁÖ¼Ò°ªÀÌ °°¾Æ¼­  °ªÀÌ º¯ÇÔ   call by value  ,ref ¹®Á¦ 
-		// ÄÁÆ®·Ñ·¯¿¡¼­ DTO ÀÏ°æ¿ì¿¡¸¸ µÊ   ÀÌ°É ÇØ°áÇÏ±âÀ§ÇØ  Around À» »ç¿ë
-		// ¸®ÅÏÇÏ´Â°Ç ÀÇ¹Ì°¡ ¾ø´Ù´Â ¹®Á¦°¡ ÀÖÀ½     ÁÖ¼Ò¸¦  Áö¿ö¹ö¸®±â ¶§¹®¿¡   Call by ref °ü·Ã ÀÌ¾ß±â 
-		//  È¾´Ü °ü½É»ç¶ó´Â °ÍÀ» ±â¾ïÀ» ÇØ¾ßÇÔ  ARound 
+		// ì£¼ì†Œê°’ì´ ê°™ì•„ì„œ  ê°’ì´ ë³€í•¨   call by value  ,ref ë¬¸ì œ 
+		// ì»¨íŠ¸ë¡¤ëŸ¬ì—ì„œ DTO ì¼ê²½ìš°ì—ë§Œ ë¨   ì´ê±¸ í•´ê²°í•˜ê¸°ìœ„í•´  Around ì„ ì‚¬ìš©
+		// ë¦¬í„´í•˜ëŠ”ê±´ ì˜ë¯¸ê°€ ì—†ë‹¤ëŠ” ë¬¸ì œê°€ ìžˆìŒ     ì£¼ì†Œë¥¼  ì§€ì›Œë²„ë¦¬ê¸° ë•Œë¬¸ì—   Call by ref ê´€ë ¨ ì´ì•¼ê¸° 
+		//  íš¡ë‹¨ ê´€ì‹¬ì‚¬ë¼ëŠ” ê²ƒì„ ê¸°ì–µì„ í•´ì•¼í•¨  ARound 
 	}
 
 --------------------------------------------------------------------------------------

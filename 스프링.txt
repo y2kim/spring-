@@ -196,3 +196,12 @@ dto or requestParam(생략가능 )
 100%   <-  이런형식으로  값을 줘야 한다  크기 
 
 
+ViewResolerver
+
+jsp가 다이렉트로 접근시  보안취약이 가능  그래서  사용 
+WEB-INF - 외부에서 접근 불가     - 404 not found 뜸 
+views - 폴더를 만듬 
+
+context.xml 기본적으로 ViewResolever 를 가지고 있음  / 권한의 문제 
+
+redirect 조심 (외부접근 )
